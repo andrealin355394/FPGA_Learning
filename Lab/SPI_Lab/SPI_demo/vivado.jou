@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 24 10:59:25 2024
+# Process ID: 18292
+# Current directory: C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10996 C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.xpr
+# Log file: C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/vivado.log
+# Journal file: C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo\vivado.jou
+# Running On: A0592-RDNB, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 16856 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_SPI.tcl
+close_sim
+launch_simulation
+source TB_SPI.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run all
+close_sim
+launch_simulation
+source TB_SPI.tcl
+run 10 ms
+relaunch_sim
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+close_sim
+launch_simulation
+source TB_SPI.tcl
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}}
+set_property xsim.view {{C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}} [get_filesets sim_1]
+close_sim
+launch_simulation
+refresh_design
+launch_simulation
+open_wave_config {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}
+source TB_SPI.tcl
+relaunch_sim
+run 10 ms
+relaunch_sim
+run 10 ms
+relaunch_sim
+run 10 ms
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+relaunch_sim
+run 10 us
+save_wave_config {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}
+save_wave_config {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}
+close_sim

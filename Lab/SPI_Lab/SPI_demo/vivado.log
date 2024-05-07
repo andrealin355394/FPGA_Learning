@@ -1,0 +1,1028 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 24 10:59:25 2024
+# Process ID: 18292
+# Current directory: C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10996 C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.xpr
+# Log file: C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/vivado.log
+# Journal file: C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo\vivado.jou
+# Running On: A0592-RDNB, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 16856 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.xpr}
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1490.094 ; gain = 276.258
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_SPI' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_SPI_behav -key {Behavioral:sim_1:Functional:TB_SPI} -tclbatch {TB_SPI.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source TB_SPI.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_SPI_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1904.246 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_SPI' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_SPI_behav -key {Behavioral:sim_1:Functional:TB_SPI} -tclbatch {TB_SPI.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source TB_SPI.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_SPI_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run all
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_SPI' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_SPI_behav -key {Behavioral:sim_1:Functional:TB_SPI} -tclbatch {TB_SPI.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source TB_SPI.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_SPI_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 10 ms
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_SPI' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-1
+Top: TB_SPI
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14660
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2629.285 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'I_rsr', assumed default net type 'wire' [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:43]
+INFO: [Synth 8-6157] synthesizing module 'TB_SPI' [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SPI_module' [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:103]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:250]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:391]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:538]
+INFO: [Synth 8-6155] done synthesizing module 'SPI_module' (0#1) [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:23]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'TB_SPI' (0#1) [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:23]
+WARNING: [Synth 8-3848] Net I_rsr in module/entity TB_SPI does not have driver. [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:43]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2629.285 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2629.285 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2629.285 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2629.285 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2629.285 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2629.285 ; gain = 0.000
+15 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2629.285 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2718.445 ; gain = 89.160
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'I_rsr', assumed default net type 'wire' [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:43]
+INFO: [Synth 8-6157] synthesizing module 'TB_SPI' [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SPI_module' [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:103]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:250]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:391]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:538]
+INFO: [Synth 8-6155] done synthesizing module 'SPI_module' (0#1) [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:23]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'TB_SPI' (0#1) [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:23]
+WARNING: [Synth 8-3848] Net I_rsr in module/entity TB_SPI does not have driver. [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:43]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2793.703 ; gain = 164.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2812.594 ; gain = 183.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2812.594 ; gain = 183.309
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2835.605 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2835.605 ; gain = 206.320
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_SPI' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_SPI_behav -key {Behavioral:sim_1:Functional:TB_SPI} -tclbatch {TB_SPI.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source TB_SPI.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_SPI_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}}
+set_property xsim.view {{C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}} [get_filesets sim_1]
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_SPI' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+ERROR: [Common 17-180] Spawn failed: No error
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2835.605 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TB_SPI' [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SPI_module' [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:103]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:250]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:391]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:538]
+INFO: [Synth 8-6155] done synthesizing module 'SPI_module' (0#1) [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v:23]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'TB_SPI' (0#1) [C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2835.605 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2835.605 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2835.605 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2845.812 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2845.812 ; gain = 10.207
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_SPI' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_SPI_behav -key {Behavioral:sim_1:Functional:TB_SPI} -tclbatch {TB_SPI.tcl} -view {{C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}
+WARNING: Simulation object /TB_SPI/I_rsr was not found in the design.
+source TB_SPI.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_SPI_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+run 10 ms
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run 10 ms
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run 10 ms
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run 10 us
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_SPI_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/SPI_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.srcs/sources_1/new/TB_SPI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SPI
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_SPI'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/SPI_demo.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SPI_behav xil_defaultlib.TB_SPI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SPI_module
+Compiling module xil_defaultlib.TB_SPI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SPI_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run 10 us
+save_wave_config {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/A0592/Desktop/0.Vince/1.FPGA_me/1.Demo Code/1.Xilinx/3.SPI/SPI_demo/TB_SPI_behav.wcfg}
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\TB_SPI.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\A0592\Desktop\0.Vince\1.FPGA_me\1.Demo Code\1.Xilinx\3.SPI\SPI_demo\SPI_demo.srcs\sources_1\new\SPI_module.v:]
+INFO: [Simtcl 6-16] Simulation closed
+exit
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 25 13:46:39 2024...
