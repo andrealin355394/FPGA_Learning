@@ -1,0 +1,20 @@
+模塊參數：
+  WIDTH: 輸入和輸出信號的寬度。
+  N: 移位寄存器的寬度，用於消彈跳。
+  RATE: 時鐘分頻因子，用於計數。
+
+端口:
+  clk
+  rst
+  [WIDTH-1:0]in: 輸入信號，表示按鍵的狀態。
+  [WIDTH-1:0]out: 輸出信號，為消彈跳後的按鍵狀態。
+
+暫存器&變數：
+  cnt_reg
+  debounce_reg 寬度為N的移位暫存器
+  state 按鍵狀態
+
+Code Note:
+  *reg [N-1:0] debounce_reg[WIDTH-1:0]; 
+    debounce_reg 是 WIDTH寬 ，N深 的暫存器
+  
