@@ -113,9 +113,46 @@ ddr3_controller u_ddr3_controller(
     //system clock ports
     .sys_clk_i              (clk_200m)  ,
     .rst_n                  (rst_n)     ,
+    //refence Clock Ports
+    .clk_ref_i              (clk_200m)  ,
+    .ddr3_read_valid        (1'b1)      ,
+    // user port
+    .rd_req                 (re_req)    ,   //read fifo
+    .wr_clk                 (clk_50m)   ,
+    .rd_clk                 (clk_50m)   ,
+    .wr_en                  (wr_en)     ,
+    .wr_data                (wr_data)    ,
+    .rd_data                (rd_data)              
 
 );
 
+test_data u_test_data(
+    .clk_50m                (clk_50m)   ,
+    .rst_n                  (rst_n)     ,
+    .init_calib_complete    (init_calib_complete),
+    .rd_data                (rd_data)   ,
+    .rd_req                 (rd_req)    ,
+    .wr_data                (wr_data)   ,
+    .wr_en                  (wr_en)     ,
+    .error                  (error)     
+);
+
+led_disp u_led_disp(
+    .clk_50m                (clk_50m)   ,
+    .rst_n                  (rst_n)     ,
+    //ddr3 init failed or rd wr data wrong are the failed
+    .init_calib_complete    (init_calib_complete) ,
+    .led(led)     
+);
+
+clk_wiz_0   u_clk_wiz(
+    //clk out port
+    .clk_out1               (clk_200m)  ,
+    .clk_out2               (clk_50m),
+    .reset                  (~sys_rst_n),
+    .locked                 (locked)    ,
+    .clk_in1                (sys_clk)
+);
 
 
 endmodule
